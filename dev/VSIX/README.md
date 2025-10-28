@@ -267,9 +267,9 @@ For testing the packaged Standalone VSIX:
 
 Before installing the Standalone VSIX, you must first uninstall the Windows App SDK templates that ship with Visual Studio to avoid conflicts:
 
-1. **For C# templates**: Open **Visual Studio Installer** and uninstall the **WinUI application development** workload (or modify it to remove Windows App SDK components)
+1. **For C# templates**: Open **Visual Studio Installer** and uninstall the **WinUI application development** workload.
 
-2. **For C++ templates**: Open **Visual Studio Installer**, click on the **WinUI 3** workload, and uncheck the **"C++ WinUI Development Tools"** checkbox under Optional components
+2. **For C++ templates**: Open **Visual Studio Installer**, click on the **WinUI application development** workload, and uncheck the **"C++ WinUI Development Tools"** checkbox under Optional components
 
 > **Note**: Failing to uninstall the Component templates will result in duplicate or conflicting template registrations.
 
@@ -1066,7 +1066,7 @@ This project is licensed under the MIT License - see the [LICENSE](Extension/LIC
 
 ### Visual Studio Extensibility
 - [Visual Studio SDK Documentation](https://docs.microsoft.com/visualstudio/extensibility/)
-- [VSIX Project Templates](https://docs.microsoft.com/visualstudio/extensibility/creating-a-vsix-package)
+- [VSIX Project Templates](https://learn.microsoft.com/en-us/visualstudio/extensibility/creating-custom-project-and-item-templates)
 - [Template Wizards](https://docs.microsoft.com/visualstudio/extensibility/how-to-use-wizards-with-project-templates)
 
 ### Windows App SDK
@@ -1076,7 +1076,6 @@ This project is licensed under the MIT License - see the [LICENSE](Extension/LIC
 
 ### NuGet Integration
 - [NuGet.VisualStudio API](https://docs.microsoft.com/nuget/visual-studio-extensibility/nuget-api-in-visual-studio)
-- [IVsPackageInstaller Interface](https://docs.microsoft.com/dotnet/api/nuget.visualstudio.ivspackageinstaller)
 
 ---
 
