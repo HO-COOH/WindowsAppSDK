@@ -1076,6 +1076,7 @@ This project is licensed under the MIT License - see the [LICENSE](Extension/LIC
 
 ### NuGet Integration
 - [NuGet.VisualStudio API](https://docs.microsoft.com/nuget/visual-studio-extensibility/nuget-api-in-visual-studio)
+- [IVsPackageInstaller Interface](https://learn.microsoft.com/en-us/nuget/visual-studio-extensibility/nuget-api-in-visual-studio#ivspackageinstaller-interface)
 
 ---
 
